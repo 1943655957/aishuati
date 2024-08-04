@@ -4,7 +4,7 @@
         "chinese": "冠词",        
         "exam": [
             {
-                "que": "__ singer and __ dancer is also gooad a drawing",
+                "que": "__ singer and __ dancer is also good at drawing",
                 "options": [
                     "The;a",
                     "The;the",
@@ -47,7 +47,7 @@
                     "the;the",
                     "the;a"
                 ],
-                "answer": 3,
+                "answer": 2,
                 "translate": "我不确定纽约是不是世界上最大的城市",
                 "explain": "biggest 是最高级，前面用the，排除A、B，world 是独一无二的，也用the，答案选C"
             },
@@ -83,6 +83,7 @@
                     "the;the",
                     "/;/"
                 ],
+                "answer": 1,
                 "translate": "我昨天去了上海，在这辆火车上我遇到了一位著名的摇滚歌手",
                 "explain": "城市前面不加冠词，排除A、C，根据题目翻译理解，是在特指遇到明星的那辆火车上，用the，所以选B"
             },
@@ -191,6 +192,38 @@
     {
         "type": "pronoun",
         "chinese": "代词",
+        "note": [
+            {
+                "title": "few,little",
+                "list": [
+                    "few 修饰可数名词，little修饰不可数名词，例如水不可数，用little，little Walter（几乎没有水）",
+                    "few, little代表稀少，极少，用于否定句时几乎等于no",
+                    "a few, a litte,代表有一些，常用于肯定句"
+                ]
+            },
+            {
+                "title": "some",
+                "list": [
+                    "当与单数名词连用时，意为‘某一’，例如：some friend 某一个朋友，而 some friends 是一些朋友"
+                ]
+            },
+            {
+                "title": "one/the other/anther ………………",
+                "list": [
+                    "one …… the other 只有两个",
+                    "some …… the others 有三个以上",
+                    "one …… another(one), the other(a third) 三个中，一个用one，第二个用another/one，第三个用the other/a third",
+                    "the others = the rest 剩余的全部"
+                ]
+            },
+            {
+                "title": "固定搭配",
+                "list": [
+                    "every other 每隔一个; eg: I went home every other week;我每隔一周回一次家",
+                    "rather than 而不是;eg: What made you choose the one rather than the other?为什么你选择这个而不是另一个呢？"
+                ]
+            }
+        ],
         "exam": [
             {
                 "que": "David left __ raincoat in the room and went out",
@@ -204,6 +237,757 @@
                 "translate": "David 把雨衣忘在了房间里然后出去了",
                 "explain": "David 是一个人，所以C、D排除,raincoat雨衣是一个名词，所以要选形容词性物主代词his，选A",
                 "other": "在学位英语考试中，left/leave 70% 都不是指离开，而是留下，要特别注意"
+            },
+            {
+                "que": "In this workshop,the output of July was three times __ of January",
+                "options": [
+                    "that",
+                    "this",
+                    "one",
+                    "it"
+                ],
+                "answer": 0,
+                "translate": "在这个商店，七月的产量是一月产量的3倍",
+                "explain": "倍数 + that of固定搭配，死记就行，选A走人"
+            },
+            {
+                "que": "There are many fashion shops and expensive restaurants on __ sides of the street",
+                "options": [
+                    "all",
+                    "each",
+                    "both",
+                    "every"
+                ],
+                "answer": 2,
+                "translate": "街道的两边有很多时装店",
+                "explain": "each,every 无法和 sides搭配，排除B、D，all指三者以上，both指两者，选C",
+                "other": "学位英语中，看到sides就选both，秒杀"
+            },
+            {
+                "que": "Alan sold most of his belongings. He has scarcely __ left in the house",
+                "options": [
+                    "everything",
+                    "something",
+                    "anything",
+                    "nothing"
+                ],
+                "answer": 2,
+                "translate": "Alan卖了他的大部分东西。它的房子里几乎没有东西了",
+                "explain": "scarcely几乎不，视为no，否定句中只能使用anything，选C",
+                "other": "belong 属于，附属；belongings 所有品；scarcely 几乎不"
+            },
+            {
+                "que": "— Can your brother and sister understand the English teacher?</br/>— No.__ of them can",
+                "options": [
+                    "not either",
+                    "not one",
+                    "neither",
+                    "no one"
+                ],
+                "answer": 2,
+                "translate": "你的弟弟妹妹能理解英语老师的话吗？不，他们都不能",
+                "explain": "两者都不，秒杀neither，选C"
+            },
+            {
+                "que": "Young boys and girls stood on __ sides of the street to welcome the presidents from Africa",
+                "options": [
+                    "every",
+                    "each",
+                    "both",
+                    "all"
+                ],
+                "answer": 2,
+                "translate": "年轻的男孩女孩站在街道两边欢迎非洲总统",
+                "explain": "不用管翻译，sides搭配both，秒杀CC"
+            },
+            {
+                "que": "__ of the two brothers are fond of classical music",
+                "options": [
+                    "Both",
+                    "All",
+                    "Each",
+                    "Either"
+                ],
+                "answer": 0,
+                "translate": "这两兄弟都喜欢古典音乐",
+                "explain": "two brothers are；are 说明是复数，two两者都，秒杀A"
+            },
+            {
+                "que": "-Tom, is there __ wrong with the car?<br/>-Yeah,the engine refuses to start",
+                "options": [
+                    "anything",
+                    "one thing",
+                    "nothing",
+                    "none"
+                ],
+                "answer": 0,
+                "translate": "-Time,车子出什么问题了吗？-是的，引擎无法启动了",
+                "explain": "疑问句、否定句中，秒杀anything，选A"
+            },
+            {
+                "que": "The girl was no happy at the new school beacause she had __ friends there",
+                "options": [
+                    "few",
+                    "a few",
+                    "little",
+                    "a little"
+                ],
+                "answer": 0,
+                "translate": "这个女孩在新学校不开心，因为她在那没朋友",
+                "explain": "没有不能带a，所以排除B、D，few修饰可数名词，little修饰不可数名词，friends是可数名词复数形式，因此用few，选A"
+            },
+            {
+                "que": "He threw stones at the birds but could not hit __",
+                "options": [
+                    "him",
+                    "her",
+                    "it",
+                    "them"
+                ],
+                "answer": 3,
+                "translate": "他向小鸟扔石头但是没砸中他们",
+                "explain": "birds是复数。没什么好说的，选D，他们"
+            },
+            {
+                "que": "The medicine is on sale everywhere. You can get it at __ chemist's",
+                "options": [
+                    "other",
+                    "some",
+                    "certain",
+                    "any"
+                ],
+                "answer": 3,
+                "translate": "这个药品在哪里都有售卖。你可以在任何一家药店得到",
+                "explain": "other其他的，some一些，certain某个，any任何，根据语意选D，任何",
+                "other": "chemist 药店"
+            },
+            {
+                "que": "Some of the meat came from Canada. How about __",
+                "options": [
+                    "another",
+                    "the other",
+                    "others",
+                    "the rest"
+                ],
+                "answer": 3,
+                "translate": "一些肉来自加拿大，剩下的呢？",
+                "explain": "剩下的用the others 或者 the rest，死记硬背，选D"
+            },
+            {
+                "que": "The man has a special talent for art and is __ of a musican",
+                "options": [
+                    "anybody",
+                    "anything",
+                    "somebody",
+                    "something"
+                ],
+                "answer": 3,
+                "translate": "这个男的有特殊的艺术天份，算得上是音乐家",
+                "explain": "词组固定搭配，死背。be someing of 算得上，选C"
+            },
+            {
+                "que": "It was hard for him to learn English in a family, in which __ of the parents  spoke the language",
+                "options": [
+                    "none",
+                    "neither",
+                    "both",
+                    "each"
+                ],
+                "answer": 1,
+                "translate": "对他来说在家里学英语很难，他的父母都不会这门语言",
+                "explain": "两者都不，用neither，选B",
+                "other": "hard 困难的；而hardly在学位外语中一般表示几乎不;<br/>none是指三者都不"
+            },
+            {
+                "que": "- Did both teams play well in the match?<br/>- Yes __ team tried its best to beat __",
+                "options": [
+                    "Either;the other",
+                    "Any;any other",
+                    "One; anthor",
+                    "Each; other"
+                ],
+                "answer": 0,
+                "translate": "- 两个队伍在比赛中玩的都很好吗？- 是的，一个队伍想要打败另一个队伍",
+                "explain": "根据翻译，应该是一个与另一个，应该用one …… the other，但是只有A选项后面是the other，而两者中任意一个可以用either，因此A没问题"
+            },
+            {
+                "que": "I got __ money with me, so I wasn't able to buy even a bottle of water",
+                "options": [
+                    "any",
+                    "some",
+                    "few",
+                    "little"
+                ],
+                "answer": 3,
+                "translate": "我身上几乎没有钱，所以甚至买不起一瓶水",
+                "explain": "没钱，用few / little，排除A、B，money 不可数，因此选D little"
+            }
+        ]
+    },
+    {
+        "type": "more_max",
+        "chinese": "比较级/最高级",
+        "note": [
+            {
+                "title": "固定搭配",
+                "list": [
+                    "the more .... the more ...., 越。。。。越。。。。",
+                    "比较级 and 比较级，越来越<br/>eg:The days are getting longer and longer，天越来越长了"
+                ]
+            },
+            {
+                "title": "拉丁语的形容词（or）结尾的，后面要加to",
+                "list": [
+                    "inferior to 比。。。。差",
+                    "superior to 比。。。。好",
+                    "prior to 在。。。。之前",
+                    "junior to 比。。。。年少",
+                    "senior to 比。。。。年长"
+                ]
+            }
+        ],
+        "exam": [
+            {
+                "que": "Of all the girls in the class Jane studies the __",
+                "options": [
+                    "hard",
+                    "harder",
+                    "hardest",
+                    "hardly"
+                ],
+                "answer": 2,
+                "translate": "班级里的所有小女孩中，Jane学的最努力",
+                "explain": "the + 最高级固定搭配。秒杀C"
+            },
+            {
+                "que": "The fired fish we ate at the restaurant yesterday is delicious. I'd like to have it again even if it costs __",
+                "options": [
+                    "as twice much",
+                    "twice as much",
+                    "much as twice",
+                    "as much twice"
+                ],
+                "answer": 1,
+                "translate": "这个我们昨天在餐馆吃的烤鱼很美味。我还想再吃一次，尽管它价格涨到了2倍",
+                "explain": "twice 倍数一定要放前面，秒杀B选项",
+                "other": "倍数+比较级可以简化为A + B的形式，A就是倍数，B则是比较级，B有两种形式<br/>1、more than;2、as + 原级 + as"
+            },
+            {
+                "que": "She is more beautiful than __ in the class",
+                "options": [
+                    "any girl",
+                    "any other girl",
+                    "all the girls",
+                    "any girls"
+                ],
+                "answer": 1,
+                "translate": "她比班里其他女生都要更漂亮",
+                "explain": "more 是比较级，肯定是和班里的其他女生（除了自己以外比较），所以选其他女生，any other girl,B选项",
+                "other": "注意不要错选C选项，对比肯定不能和自己比，所以要把自己排除，C选项是全班女生包括了自己，如果说他是班里最漂亮的女生，那才能选C"
+            },
+            {
+                "que": "There are not __ students in Class One as in Class Two",
+                "options": [
+                    "many as",
+                    "as many",
+                    "more as",
+                    "as more"
+                ],
+                "answer": 1,
+                "explain": "这题其实不需要翻译，看题目【in Class One as in Class Two】有一个as，选项中也有as，说明考察点是as + 形容词或副词的原级 + as，所以直接秒杀B选项",
+                "translate": "一班的学生和二班的学生不一样多"
+            },
+            {
+                "que": "She speaks English __ than her brother does",
+                "options": [
+                    "best",
+                    "better",
+                    "good",
+                    "well"
+                ],
+                "answer": 1,
+                "translate": "她的英语比她哥哥说得好",
+                "explain": "than，用比较级，秒杀B，没什么好说的"
+            },
+            {
+                "que": "Everyone is getting old, but you look __ than ever",
+                "options": [
+                    "younger",
+                    "youngest",
+                    "the youngest",
+                    "young"
+                ],
+                "answer": 0,
+                "translate": "每个人都会变老，但是你看起来比别人更年轻",
+                "explain": "than，用比较级，秒杀A，送分题"
+            },
+            {
+                "que": "The blue whale is __ any other animal on earth",
+                "options": [
+                    "no bigger than",
+                    "as big as",
+                    "the biggest of",
+                    "bigger than"
+                ],
+                "answer": 3,
+                "translate": "蓝鲸比地球上其他动物都要大",
+                "explain": "和地球上的其他动物做比较，用比较级，答案一定在A、D之间，A是没有其他动物大，D是比其他的大，从翻译的角度来说蓝鲸肯定是大，选D，如果不认识 blue whale 从考场思维来看，BCD都说他大，那应该是大，选D",
+                "other": "as big as ：指一样大;<br/>blue whale: 蓝鲸"
+            },
+            {
+                "que": "Your sister doesn't study as __ as you do",
+                "options": [
+                    "hard",
+                    "hardly",
+                    "harder",
+                    "hardest"
+                ],
+                "answer": 0,
+                "translate": "你的姐姐学习并不像你一样努力",
+                "explain": "选项两边是as as，说明要填原型，C、D排除，这里就要考翻译了，A：努力，B：几乎不，选A"
+            },
+            {
+                "que": "I have been to my uncle's farm many time. His farm __ the one you vistied last weekend",
+                "options": [
+                    "three times larger",
+                    "three times large",
+                    "three times larger than",
+                    "three times as large"
+                ],
+                "answer": 2,
+                "translate": "我去过我叔叔的农场很多次，他的农场比你上周末参观的那个大三倍",
+                "explain": "这题不需要看题目，直接看选项就可以知道知识点是想考倍数+比较级，套用A+B的公式，ABCD都满足，无法排除，往后看，B有两种形式，一种as 原型 as， 一种more than，只有C选项符合more than，秒杀C"
+            },
+            {
+                "que": "This new machine is technically far __ to the previous type",
+                "options": [
+                    "superior",
+                    "junior",
+                    "senior",
+                    "equal"
+                ],
+                "answer": 0,
+                "translate": "这个新机器在技术上比之前的要好",
+                "explain": "看选项，都是比较级，空格后面跟个to，说明选项要选or结尾的（拉丁语的形容词）,排除D选项，剩下三个选项只能依靠翻译来做了，选A，比之前的好",
+                "other": "superior to:更好<br />junior to:更年轻<br />senior to:更年长<br />equal to 相等"
+            },
+            {
+                "que": "The harder you work, __ progress you will make in the future",
+                "options": [
+                    "more",
+                    "the best",
+                    "the most",
+                    "the greater"
+                ],
+                "answer": 3,
+                "translate": "你工作的越努力，将来就会越成功",
+                "explain": "The harder 其实就是 the more ... the more的形式，所以选项中要填入一个the more，秒杀D选项"
+            }
+        ]
+    },
+    {
+        "type": "preposition",
+        "chinese": "介词",
+        "exam": [
+            {
+                "que": "They go to work every day __ Saturday and Sunday. Those days are holidays",
+                "options": [
+                    "besides",
+                    "on",
+                    "from",
+                    "except"
+                ],
+                "answer": 3,
+                "translate": "他们每天都在工作除了周六和周日，这两天是节假日",
+                "explain": "翻译题，A选项是除了之外还有，D选项是除了，根据翻译直接选D"
+            },
+            {
+                "que": "Jim can't go to school today __ his illness",
+                "options": [
+                    "in spite of",
+                    "in front of",
+                    "because of",
+                    "far from"
+                ],
+                "answer": 2,
+                "translate": "Jim 今天不能去学校，因为他生病了",
+                "explain": "A in spite of 尽管；B in front of 在前面，C because of 因为;D far from 远离，选C"
+            },
+            {
+                "que": "They left London for New York __ the morning of September 10",
+                "options": [
+                    "in",
+                    "on",
+                    "at",
+                    "of"
+                ],
+                "answer": 1,
+                "translate": "他们9月10日的早晨离开了纽约",
+                "explain": "具体到某一天的早中晚，用on，选B",
+                "other": "一般在早中晚后有修饰词的都用on，只有早中晚就用in，例如in the morning"
+            },
+            {
+                "que": "The key __ success is hard work and persistence",
+                "options": [
+                    "on",
+                    "to",
+                    "for",
+                    "of"
+                ],
+                "answer": 1,
+                "translate": "成功的关键是努力工作和坚持",
+                "explain": "The key to 关键是....，固定搭配，选B"
+            },
+            {
+                "que": "We are very grateful __ you for your help",
+                "options": [
+                    "on",
+                    "from",
+                    "with",
+                    "to"
+                ],
+                "answer": 3,
+                "translate": "我们十分感谢你的帮助",
+                "explain": "be grateful to 对...表示感激，固定搭配，选D",
+                "other": "从介词的基础含义来看，我们十分感谢，感谢谁，to表目的，感激你，所以D"
+            },
+            {
+                "que": "All students are required to translate this poem __ English into Chinese",
+                "options": [
+                    "with",
+                    "from",
+                    "on",
+                    "for"
+                ],
+                "answer": 1,
+                "translate": "每个学生都被要求把这首诗从英文翻译成中文",
+                "explain": "直接关注后面，English into Chinese，into是去，肯定是从哪里去哪里，所以选B，from",
+                "other": "be require to 被要求；form into/to 从哪里来，到哪里去。"
+            },
+            {
+                "que": "We can see a lot of people doing morning exercises in the park even __ a cold morning",
+                "options": [
+                    "on",
+                    "in",
+                    "at",
+                    "during"
+                ],
+                "answer": 0,
+                "translate": "我们可以看到有很多人在公园里早晨做锻炼，甚至是寒冷的早晨",
+                "explain": "a cold morning,对于添加了修饰词的早中晚，一律用on，秒杀A选项"
+            },
+            {
+                "que": "He decided to devote all his time and effort __ scientific investigation",
+                "options": [
+                    "in",
+                    "on",
+                    "from",
+                    "to"
+                ],
+                "answer": 3,
+                "translate": "他决定奉献出它的时间和努力投入到科学调查中",
+                "explain": " devote all his time and effort 奉献时间努力一定要投入到什么地方，从单词本身含义来看to代表目的，选D",
+                "other": "decided to 决定;devote 献身;invest 投资;investigation 调查"
+            },
+            {
+                "que": "The train starts __ 6:20,so you'd better get there before 6",
+                "options": [
+                    "on",
+                    "at",
+                    "in",
+                    "of"
+                ],
+                "answer": 1,
+                "translate": "火车6.20就发动了，所以你最好6点前到",
+                "explain": "具体的时间用at，秒杀B"
+            },
+            {
+                "que": "In the past we had only a day off for the whole week;we work every day __ Sunday",
+                "options": [
+                    "besides",
+                    "beside",
+                    "except",
+                    "on"
+                ],
+                "answer": 2,
+                "translate": "在过去，我们一周仅仅休息一天，我们每天都要工作除了周日",
+                "explain": "翻译题，没什么好说的，除了，except，选C"
+            },
+            {
+                "que": "Fujian Province lies __ the east of China, while Taiwan is __ the east of Fujian",
+                "options": [
+                    "in;in",
+                    "to;in",
+                    "to;to",
+                    "in;to"
+                ],
+                "answer": 3,
+                "translate": "福建省在中国东部，台湾在福建的东边",
+                "explain": "这一题考查位置关系的介词搭配，在内部用in，非内部且互不接触用to，福建在中国内部，所以用in，排除B、C，台湾与福建隔海相望，所以用to，选D"
+            },
+            {
+                "que": "Our spots meet is planned to take place __ Saturday morning",
+                "options": [
+                    "in",
+                    "at",
+                    "on",
+                    "of"
+                ],
+                "answer": 2,
+                "translate": "我们的运动会计划在周六早上",
+                "explain": "这题不用翻译，morning前面有个单词，Saturday，选on，秒杀C"
+            },
+            {
+                "que": "- When will you be back?<br/>- I'll be back __ a couple of days",
+                "options": [
+                    "after",
+                    "for",
+                    "about",
+                    "in"
+                ],
+                "answer": 3,
+                "translate": "你什么时候回来？我过几天就回来",
+                "explain": "表示在一段时间之后，一般用in，选D"
+            }
+        ]
+    },
+    {
+        "type": "conn",
+        "chinese": "连词",
+        "exam": [
+            {
+                "que": "__ I admit that she has shortcomings, I still like her",
+                "options": [
+                    "When",
+                    "As",
+                    "While",
+                    "Once"
+                ],
+                "answer": "2",
+                "translate": "尽管我承认她有缺点，我仍然喜欢他",
+                "explain": "可以从翻译的角度来解题，也可以锁定【I still like her】中的still，表示仍然，说明前面一定要有一个尽管的转折词，秒杀C",
+                "other": "admit:承认;shortcoming：缺点"
+            },
+            {
+                "que": "Dont't let the child play with scissors __ he cuts himself",
+                "options": [
+                    "in case",
+                    "so that",
+                    "now that",
+                    "only if"
+                ],
+                "answer": 0,
+                "explain": "本题考转折题的翻译，A：万一、假如；B：所以；C：既然；D：只要...就（很少考）",
+                "translate": "别让小孩玩剪刀，以防他割伤自己",
+                "other": "scissors: 剪刀"
+            },
+            {
+                "que": "It takes at least five years to ten years __ it is possible to test this medicine on human patients",
+                "options": [
+                    "before",
+                    "since",
+                    "after",
+                    "when"
+                ],
+                "answer": 0,
+                "explain": "本体考察固定搭配，takes at + 一段时间 + before：要经过一段时间才",
+                "translate": "要经过5-10年才有可能在病人身上测试这个药",
+                "other": "学位外语考试中，before只有30%几率翻译为在...之前，70%翻译为才"
+            },
+            {
+                "que": "The weather forecast says there's going to be a heavy storm here in two or three hours, so we have to hurry back home __ it comes",
+                "options": [
+                    "before",
+                    "unless",
+                    "although",
+                    "until"
+                ],
+                "answer": 0,
+                "explain": "翻译题，A：之前，B：除非，C：尽管，D：直到，选A",
+                "translate": "天气预报说2～3小时内会有大暴雨，所以我们必须赶在他之前回到家"
+            },
+            {
+                "que": "I can't finish the work in time __ you help me translate the texts",
+                "options": [
+                    "unless",
+                    "if",
+                    "where",
+                    "but"
+                ],
+                "answer": 0,
+                "explain": "翻译题，选A",
+                "translate": "我无法完成这项工作在规定时间内，除非你帮我翻译这些文字"
+            },
+            {
+                "que": "__ the manager will come or not doesn't matter much",
+                "options": [
+                    "Whether",
+                    "That",
+                    "If",
+                    "What"
+                ],
+                "answer": 0,
+                "explain": "come or not doesn't matter 来不来都没关系，说明前面应该是无论，所以秒杀A",
+                "translate": "不管经理来不来都没关系"
+            },
+            {
+                "que": "He does morning exercises every day __ make himself strong",
+                "options": [
+                    "in order that",
+                    "in order to",
+                    "so that",
+                    "such that"
+                ],
+                "answer": 1,
+                "translate": "他每天早晨都锻炼，为了使他自己强壮",
+                "explain": "先看后面make himself strong，make sb strong是个词组，不是句子，因此不能用that，直接排除ACD，选B",
+                "other": "in order to 和 in order that 都表示为了...，that后面接句子，to接单词或词组，so that和such that 都表示以便，所以"
+            },
+            {
+                "que": "Generally, snakes won't attack humans __ they are threatened with danger",
+                "options": [
+                    "if",
+                    "since",
+                    "unless",
+                    "while"
+                ],
+                "answer": 2,
+                "translate": "通常，蛇不会攻击人，除非当他们面临危险",
+                "explain": "Generally：通常，说明后面肯定有不通常的原因，秒杀unless"
+            },
+            {
+                "que": "George applied for the position three times __ he finally got it",
+                "options": [
+                    "before",
+                    "until",
+                    "when",
+                    "after"
+                ],
+                "answer": 0,
+                "translate": "George 申请了这个职位三次，在他最终成功得到之前",
+                "explain": "这里要注意下，__ 是修饰he finally got it的肯定是在他得到前申请的，不能简单的按照中式英语翻译成在他申请了三次之后，他终于得到了，误选了after，答案选A，before"
+            },
+            {
+                "que": "The police officers in our city work hard __ the rest of us can live a safe life",
+                "options": [
+                    "in case",
+                    "as if",
+                    "in order that",
+                    "only if"
+                ],
+                "answer": 2,
+                "explain": "翻译题，没什么好说的，警察肯定是为了我们，选C",
+                "translate": "我们城市的警察工作的很努力，是为了我们能够过上安全的生活"
+            },
+            {
+                "que": "I was so familiar with her that I recognized her voice __ i pick up the phone",
+                "options": [
+                    "the moment",
+                    "since",
+                    "before",
+                    "while"
+                ],
+                "answer": 0,
+                "translate": "我对她如此熟悉，一接到电话就能识别出她的声音",
+                "explain": "易错项是D，当...的时候，从中文角度来说可以翻译的通，当我接电话的时候可以分辨出她的声音，但是在英语中，动作发生的一瞬间应该用the monent或者as soon as，选A"
+            },
+            {
+                "que": "__ their country has plenty of oil, our has none",
+                "options": [
+                    "While",
+                    "Where",
+                    "When",
+                    "Unless"
+                ],
+                "answer": 0,
+                "translate": "他们的城市有大量的油，但是我们没有",
+                "explain": "oil翻译不出来也不影响做题，their has，out has none，他们有我们没有，说明肯定是个不同的转折关系，while：虽然、尽管、但是，转折性的词，因此选A",
+                "other": "plenty of:大量的；oil: 油"
+            },
+            {
+                "que": "How can you keep fit __ you smoke so much every day",
+                "options": [
+                    "but",
+                    "however",
+                    "if",
+                    "otherwise"
+                ],
+                "answer": 2,
+                "translate": "如果你每天抽这么多的烟，还怎么保持健康？",
+                "explain": "翻译题，没什么好说的,选C",
+                "other": "otherwise:另一方面/否则"
+            },
+            {
+                "que": "You have failed two tests. You'd better start working harder, __ you won't pass the course",
+                "options": [
+                    "and",
+                    "but",
+                    "or",
+                    "so"
+                ],
+                "translate": "你已经失败了两次测试，你最好开始努力工作，不然下一次还不能通过",
+                "answer": 2,
+                "explain": "翻译题，or不止有或者的意思，还有否则的含义，选C"
+            },
+            {
+                "que": "How many more dacades will have to pass __ scientists succeed in providing a cure for cancer",
+                "options": [
+                    "when",
+                    "before",
+                    "since",
+                    "until"
+                ],
+                "answer": 1,
+                "explain": "从翻译的角度可以解决此题，但是如果很多词都不认识，从考场思维来看，出现before，80%几率是before，选B",
+                "other": "dacades: 数十年;cancer: 癌症;"
+            },
+            {
+                "que": "Scientists say it may be five or six years __ this medicine is tested on human beings",
+                "options": [
+                    "since",
+                    "before",
+                    "after",
+                    "when"
+                ],
+                "answer": 1,
+                "translate": "科学家说可能需要5-6年这个药品才能在人身上测试",
+                "explain": "翻译题，before，翻译为才，选B"
+            },
+            {
+                "que": "We must have the patience to continue our work __ we find a more effective solution",                
+                "options": [
+                    "so",
+                    "and",
+                    "until",
+                    "thus"
+                ],
+                "answer": 2,
+                "translate": "我们必须有耐心来继续我们的工作，直到我们找到更有效的解决方案"
+            },
+            {
+                "que": "Be quick, __ you will miss your flight",
+                "options": [
+                    "otherwise",
+                    "unless",
+                    "and",
+                    "rather"
+                ],
+                "other": "unless:除非；rather：宁可/相当",
+                "answer": 0,
+                "translate": "快点，否则你将要错过你的航班",
+                "explain": "翻译题，选A"
+            },
+            {
+                "que": "Start out right now,__ you'll miss the last train",
+                "options": [
+                    "and",
+                    "but",
+                    "or",
+                    "for"
+                ],
+                "answer": 2,
+                "explain": "翻译题，or有否则的意思，有otherwise的话也可以选",
+                "translate": "现在就出去，否则你将要错过最后一班火车"
             }
         ]
     }
