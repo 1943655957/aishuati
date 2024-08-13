@@ -990,5 +990,571 @@
                 "translate": "现在就出去，否则你将要错过最后一班火车"
             }
         ]
+    },
+    {
+        "type": "time",
+        "chinese": "时态",
+        "exam": [
+            {
+                "que": "If it __ tomorrow, we won't go for a picnic",
+                "options": [
+                    "will rain",
+                    "should rain",
+                    "rains",
+                    "rained"
+                ],
+                "answer": 2,
+                "translate": "如果明天下雨，我们就不去野餐了",
+                "explain": "won't = will not是将来时，根据主将从现，从句应该用现在时，选C"
+            },
+            {
+                "que": "What's the matter with you? You __ so pale",
+                "options": [
+                    "are looking",
+                    "look",
+                    "have looked",
+                    "looked"
+                ],
+                "answer": 1,
+                "translate": "你怎么了？你看起来脸色苍白",
+                "explain": "what is说明时态是现在时，前后时态要一致，因此__内也要填入现在时，选B",
+                "other": "What's the matter出现就意味着负面"
+            },
+            {
+                "que": "If he __ to this project, we will not go on to carry it out",
+                "options": [
+                    "will object",
+                    "objects",
+                    "had objected",
+                    "objected"
+                ],
+                "answer": 1,
+                "translate": "如果他反对这个项目，我们将不能实行下去",
+                "explain": "主将从现，will说明是将来时，所以需要填入现代时，秒杀B",
+                "other": "object:学位英语考试中基本上表示反对"
+            },
+            {
+                "que": "Now I __ to work by bike instead of by car as there are too many cars on the road in rush hours",
+                "options": [
+                    "go",
+                    "went",
+                    "am going",
+                    "was going"
+                ],
+                "answer": 0,
+                "translate": "现在我上班用汽车替代开车，因为高峰期路上车太多了",
+                "explain": "Now是标准的现在时语态，后面有是there are，are也是现在时，所以秒杀A选项"
+            },
+            {
+                "que": "They will have learned Russian for 7 years by the time they __ from the university next year",
+                "options": [
+                    "will graduate",
+                    "will have graduated",
+                    "graduate",
+                    "are going to fraduate"
+                ],
+                "answer": 2,
+                "translate": "他们即将学了7年的俄语当它们明年大学毕业的时候",
+                "explain": "They will have是主语，will说明是将来时，所以后面的从句要用现在时，选C"
+            },
+            {
+                "que": "If Peter __ to office tomorrow, tell him the new please",
+                "options": [
+                    "come",
+                    "comes",
+                    "came",
+                    "will come"
+                ],
+                "answer": 1,
+                "translate": "如果Peter明天来办公室，请告诉他这个消息",
+                "explain": "主将从现，要记住，在祈使句中，表达的都是将来时，所以tell him the new please是将来时，那么前面的从句就要用现在时，答案在A、B中，因为Peter是三单，所以选B"
+            },
+            {
+                "que": "We won't be getting married until we __ enough money",
+                "options": [
+                    "will save",
+                    "save",
+                    "saved",
+                    "have saved"
+                ],
+                "answer": 1,
+                "translate": "直到有足够的钱我们才会结婚",
+                "explain": "主将从现，选B"
+            },
+            {
+                "que":  "He will come to call on you the moment he __ his work",
+                "options": [
+                    "will finish",
+                    "finishes",
+                    "finished",
+                    "to finish"
+                ],
+                "answer": 1,
+                "translate": "他完成了他的工作就会打电话给你",
+                "explain": "will是将来时，主将从现+三单，选B",
+                "other": "the moment = as soon as"
+            },
+            {
+                "que": "Please give Jim the schedule for tomorrow's conference when he __ back. He is to chair the conference",
+                "options": [
+                    "will come",
+                    "come",
+                    "comes",
+                    "came"
+                ],
+                "answer": 2,
+                "translate": "请给jim明天会议的日程表当他回来的时候，他要主持这个会议",
+                "explain": "tomorrow明天，将来时，主将从现+三单，选C"
+            },
+            {
+                "que": "__ and you will make it next time",
+                "options": [
+                    "Work hard",
+                    "To work hard",
+                    "Working hard",
+                    "worked hard"
+                ],
+                "answer": 0,
+                "translate": "努力工作，你下次会做到的",
+                "explain": "and前后时态一致，and 后有will，说明是将来时，空格内也要填入将来时，ABCD四个选项都没有will，这个时候考虑使用祈使句表达将来时，祈使句中要使用动词原形来充当谓语，因此选A"
+            },
+            {
+                "que": "When George was a little boy in primary scroll, he often __ to school on foot",
+                "options": [
+                    "goes",
+                    "went",
+                    "go",
+                    "will go"
+                ],
+                "answer": 1,
+                "translate": "当George还是个上小学的小男孩时，他经常走路去学校",
+                "explain": "when引导的从句使用的是was，说明是过去式，所以秒杀B选项"
+            },
+            {
+                "que": "He __ from college three years ago , but now he is the boss of a large business",
+                "options": [
+                    "graduate",
+                    "graduates",
+                    "graduated",
+                    "has graduated"
+                ],
+                "answer": 2,
+                "translate": "他三年前从大学毕业，但是他现在时一家大公司的老板",
+                "explain": "three years ago,三年前，过去式，选C"
+            },
+            {
+                "que": "Air pollution, together with overpopulation, __ many problems in big city",
+                "options": [
+                    "are causing",
+                    "is causing",
+                    "are caused",
+                    "is caused"
+                ],
+                "answer": 1,
+                "translate": "空气污染和人口过剩，导致了大城市的很多问题",
+                "explain": "学位英语考试中，看到,together，直接把together后面忽略，所以air pollution是单数，排除AC，这些问题又是到现在为止一直存在的，所以选B"
+            },
+            {
+                "que": "Send for a doctor quickly. The old man __",
+                "options": [
+                    "will die",
+                    "is dying",
+                    "dies",
+                    "died"
+                ],
+                "answer": 1,
+                "translate": "快去请医生，这个老男人快死了",
+                "explain": "结合语义，这个男人肯定还没死，应该用将来时，答案在A、B中，B选项是进行时表将来，表示即将发生迫在眉睫的，更符合题目意思"
+            },
+            {
+                "que": "Tony found a new Job in Hangzhou and __ in Alibaba now",
+                "options": [
+                    "works",
+                    "has worked",
+                    "is working",
+                    "will work"
+                ],
+                "answer": 2,
+                "translate": "Tony找到了一个新工作在杭州，并且现在在阿里巴巴工作",
+                "explain": "在过去找到了一个杭州的工作，并且现在也还在阿里巴巴，说明持续不断，is working，选C"
+            },
+            {
+                "que": "The number of cell phone users __ in recent years",
+                "options": [
+                    "keeps grow",
+                    "is growing",
+                    "are growing",
+                    "have grown"
+                ],
+                "answer": 1,
+                "translate": "近年来，手机的用户数量一直在增长",
+                "explain": "增长是持续不断的，所以答案在B、C之间，the number of 是单数形式，所以选B",
+                "other": "可以从理解的角度考虑，手机用户太多了数不过来，所以肯定是不可数名词，不可数名词谓语动词用单数，选B"
+            },
+            {
+                "que": "When Jack came in, I __ dinner with my parents",
+                "options": [
+                    "was having",
+                    "had",
+                    "am having",
+                    "have"
+                ],
+                "answer": 0,
+                "translate": "当jack来的时候，我正在和我的父母吃晚饭",
+                "explain": "当jack过来的时候，肯定是过去式，CD排除，来的时候正在吃饭，肯定是进行时，选A"
+            },
+            {
+                "que": "When Bill came in,I __ with my friends",
+                "options": [
+                    "will talk",
+                    "talk",
+                    "was talking",
+                    "have talked"
+                ],
+                "answer": 2,
+                "translate": "当BILL进来的时候，我正在和我的朋友说话",
+                "explain": "当来的时候，正在谈话，说明是过去进行时，选C"
+            },
+            {
+                "que": "When Jenny came to my place, I __ breakfast with James",
+                "options": [
+                    "have",
+                    "had",
+                    "have had",
+                    "was having"
+                ],
+                "answer": 3,
+                "translate": "当Jenny来我家的时候，我正在和James吃早餐",
+                "explain": "当Jenny来我家的时候，我正在和James吃早餐，过去进行时，选D"
+            },
+            {
+                "que": "The children __ happily in the classroom when the teacher came in",
+                "options": [
+                    "talk",
+                    "are talking",
+                    "were talking",
+                    "had talked"
+                ],
+                "answer": 2,
+                "translate": "当老师进来的时候，孩子们在教室里说话说的很开心",
+                "explain": "根据翻译，过去进行时，选C"
+            },
+            {
+                "que": "This was the last week of school and they __ for their finals",
+                "options": [
+                    "prepare",
+                    "were preparing",
+                    "would prepare",
+                    "have prepared"
+                ],
+                "answer": 1,
+                "translate": "这是学校的最后一周，他们都在准备他们的期末考试",
+                "explain": "and前后时态一致，所以应该用过去式，准备考试要持续一段时间，所以应该用过去进行时，选B"
+            },
+            {
+                "que": "The reporter said that the UFO __ east to west when he saw it",
+                "options": [
+                    "was traveling",
+                    "traveled",
+                    "had been traveling",
+                    "was to travel"
+                ],
+                "answer": 0,
+                "translate": "记者说当他看到的时候那个UFOUFO正在从东向西飞行",
+                "explain": "看到的时候UFO正在飞行，排除B、D选项，C选项的过去完成进行时，代表说从过去到现在一直在持续，UFO不可能一直在飞，所以选A"
+            },
+            {
+                "que": "When I first met Jenny three years ago, she __ at a big company",
+                "options": [
+                    "has worked",
+                    "was working",
+                    "had been working",
+                    "had worked"
+                ],
+                "answer": 1,
+                "translate": "当我三年前第一次遇到Jenny的时候，她正在一个大公司工作",
+                "explain": "根据翻译，过去进行时，选B"
+            },
+            {
+                "que": "Frank moved to California last summer and __ there since then",
+                "options": [
+                    "has stayed",
+                    "stayed",
+                    "is staying",
+                    "stays"
+                ],
+                "answer": 0,
+                "translate": "Frank 上个夏季去了加利福尼亚并且自那以后一直待在那",
+                "explain": "看到since，for，already,yet都用现代完成时，选A"                
+            },
+            {
+                "que": "They __ into the dormitory already",
+                "options": [
+                    "have moved",
+                    "moving",
+                    "move",
+                    "having moved"
+                ],
+                "answer": 0,
+                "translate": "他们已经搬进宿舍了",
+                "explain": "看到 already，选择现在完成时，选A"
+            },
+            {
+                "que": "I bought a new house last year, but I __ my old house yet, so at the moment I have two houses",
+                "options": [
+                    "didn't sell",
+                    "have not sold",
+                    "had not sold",
+                    "dont't sell"
+                ],
+                "answer": 1,
+                "translate": "我去年买了个新房子，但是我没有卖掉我的老房子，所以现在我有两个房子",
+                "explain": "看到yet，直接选择现在完成时，选B"
+            },
+            {
+                "que": "She sent her application to the university last week, but __ any response up to now",
+                "options": [
+                    "didn't receive",
+                    "weren't receiving",
+                    "hadn't received",
+                    "hasn't received"
+                ],
+                "answer": 3,
+                "translate": "她发送了她的申请到那所大学在上周的时候，但是直到现在也没有收到回复",
+                "explain": "up to now 非常典型的现在完成时，选D"
+            },
+            {
+                "que": "Ms.Green __ living in town for only one year, yet she seems to know every one comes to the store",
+                "options":[
+                    "was",
+                    "had been",
+                    "is",
+                    "has been"
+                ],
+                "translate": "Green生活在这里只有一年，但是她似乎认识每一个来这个商店的人",
+                "answer": 3,
+                "explain": "yet，秒杀现在完成时，D"
+            },
+            {
+                "que": "Last week I wrote to hotel to book a room, but they __ yet",
+                "options": [
+                    "didn't answer",
+                    "wasn't answering",
+                    "hadn't answered",
+                    "haven't answered"
+                ],
+                "translate": "上周我写信给宾馆预订了一个房间，但是他们到现在也没有回复我",
+                "answer": 3,
+                "explain": "yet，秒杀现在完成时，D"
+            },
+            {
+                "que": "They haven't finished their homework __",
+                "options": [
+                    "still",
+                    "also",
+                    "neither",
+                    "yet"
+                ],
+                "answer": 3,
+                "explain": "haven't finished现在完成时，反向思考，寻找since，for，already，yet，up to now，秒杀D",
+                "translate": "他们还没有完成作业"
+            },
+            {
+                "que": "On reaching home I discovered that I __ my keys at the office",
+                "options":[
+                    "left",
+                    "have left",
+                    "was left",
+                    "had left"
+                ],
+                "translate": "我回家后我才发现我把我的钥匙忘在了办公室里",
+                "answer": 3,
+                "explain": "discovered过去式，丢失钥匙又在发现之前，过去的过去，用过去完成时，选D"
+            },
+            {
+                "que": "When we arrived at airport, we were told our flight __",
+                "options": [
+                    "had cancelled",
+                    "had been cancelled",
+                    "has been cancelled",
+                    "cancelled"
+                ],
+                "answer": 1,
+                "translate": "当我们抵达机场的时候，我们被告知航班被取消了",
+                "explain": "arrived之后被告知，说明是过去的过去，排除C、D，航班一定是被取消，用被动语态。选B"
+            },
+            {
+                "que": "Not until I began to work did I realize how much time I __",
+                "options": [
+                    "wasted",
+                    "have wasted",
+                    "had wasted",
+                    "was wasted"
+                ],
+                "answer": 2,
+                "translate": "知道我开始工作，我才意识到我浪费了多少时间",
+                "explain": "began是begin的过去时，浪费时间一定是过去的过去，秒杀C",
+                "other": "学位英语80%过去时与过去完成绑定，题目有过去时，就选过去完成，有过去完成，就选过去"
+            },
+            {
+                "que": "We were glad the she __ a gold medal",
+                "options": [
+                    "will be awarded",
+                    "has been awarded",
+                    "had been awarded",
+                    "was begin awarded"
+                ],
+                "answer": 2,
+                "translate": "我们很高兴她获得了金牌",
+                "explain": "were glad说明是过去时，那应该选过去完成时，选C"
+            },
+            {
+                "que": "By the end of last week 611 people from 49 countries __ to attend the metting, with nearly half coming from the United States, Germany and Britain",
+                "options": [
+                    "had registered",
+                    "have registered",
+                    "registered",
+                    "were registered"
+                ],
+                "answer": 0,
+                "translate": "到上周为止，来自49个国家的611人出席了此次会议，超过一半的人员来自美国，德国和英国",
+                "explain": "在有by的句子中，如果by引导的是过去的时间，那么就要使用过去完成时，如果引导的是现在的时间(eg:this time），那么就要用现在完成时，如果是将来的时间，就用将来完成时，本题last week，上周，是过去，秒杀A"
+            },
+            {
+                "que": "The robber had escaped and was nowhere to be found when the police __",
+                "options": [
+                    "arrived",
+                    "had arrived",
+                    "arrive",
+                    "have arrived"
+                ],
+                "answer": 0,
+                "translate": "这个抢劫犯逃跑了，在警察到来之前",
+                "explain": "had escaped过去完成时，选一个过去式，A"
+            },
+            {
+                "que": "By the end of this term, we __ 3000 English words in all",
+                "options": [
+                    "will learn",
+                    "will have learned",
+                    "have learned",
+                    "had learned"
+                ],
+                "translate": "到这学期结束，我们就学习了300个英语单词了",
+                "answer": 1,
+                "explain": "the end of this term这学期期末，是将来时间，by+将来的时间点，要选将来完成时，秒杀B"
+            },
+            {
+                "que": "By the next month he __ everything in school",
+                "options": [
+                    "will finish",
+                    "would have finished",
+                    "finishes",
+                    "will have finished"
+                ],
+                "translate": "到下学期结束，他就完成学校的所有任务了",
+                "answer": 3,
+                "explain": "by+将来的时间点，要选将来完成时，秒杀D"
+            },
+            {
+                "que": "By the time she leaves the stage next month,she __ for sixty years",
+                "options": [
+                    "will have performed",
+                    "has performed",
+                    "will be performing",
+                    "will perform"
+                ],
+                "translate": "到下个月她离开舞台，她已经表演六十年了",
+                "answer": 0,
+                "explain": "by+将来的时间点，要选将来完成时,A",
+                "other": "stage:舞台"
+            },
+            {
+                "que": "By the year 2020,China's population probably __ 1.4 billion",
+                "options": [
+                    "will be reaching",
+                    "are reaching",
+                    "will have reached",
+                    "has reched"
+                ],
+                "answer": 2,
+                "translate": "到2020年，中国人口可能达到14亿",
+                "explain": "by+将来的时间点，要选将来完成时,C"
+            },
+            {
+                "que": "By the end of next month, you __ here for three years",
+                "options": [
+                    "will have studied",
+                    "study",
+                    "will study",
+                    "have studied"
+                ],
+                "answer": 0,
+                "translate": "到下个月结束，你就学了3年了",
+                "explain": "by+将来的时间点，要选将来完成时,A"
+            },
+            {
+                "que": "A new house will have been build here __",
+                "options": [
+                    "in this year",
+                    "for one year",
+                    "by the end of the year",
+                    "during the last year"
+                ],
+                "answer": 2,
+                "translate": "这儿有一个新房子将在年底前完成",
+                "explain": "will have been将来完成时，选by + 将来时间"
+            },
+            {
+                "que": "The number of primary schools in the rular areas __ doubling in the past 50 years",
+                "options": [
+                    "are",
+                    "is",
+                    "have been",
+                    "has been"
+                ],
+                "answer": 3,
+                "translate": "在过去的50年里，乡村学校的数量增长了一倍",
+                "other": "看到 a number of动词用复数，the number of用单数;</br> in the past + 时间词一定用现在完成时",
+                "explain": "The number of 说明是单数，排除AC，in the past在过去，肯定不能用现在时，排除B，选D"
+            },
+            {
+                "que": "Ever since the Smiths moved to the lake area a year ago, they __ better healthy",
+                "options": [
+                    "could have enjoyed",
+                    "had enjoyed",
+                    "have been enjoying",
+                    "are enjoying"
+                ],
+                "answer": 2,
+                "translate": "自从smiths一家搬来一年来，他们变得更健康了",
+                "explain": "根据翻译做题，到现在肯定还时很健康"
+            },
+            {
+                "que": "I __ my experiment report all the morning and haven't finished yet",
+                "options": [
+                    "write",
+                    "was writing",
+                    "have written",
+                    "have been writing"
+                ],
+                "answer":3,
+                "translate": "我整个上午都在写实验报告，并且还没写完",
+                "explain": "看到yet，就是现在完成时，排除AB，根据翻译，报告一直在做，选D",
+                "other":"experiment:实验;"
+            },
+            {
+                "que": "Henry __ in that factory for almost 40 years by now",
+                "options": [
+                    "has been working",
+                    "had been working",
+                    "works",
+                    "worked"
+                ],
+                "answer": 0,
+                "translate": "Henry在那家工厂到目前为止大约工作了40年了",
+                "explain": "看到by now，秒杀A"
+            }
+        ]
     }
 ]
