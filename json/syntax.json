@@ -1556,5 +1556,112 @@
                 "explain": "看到by now，秒杀A"
             }
         ]
+    },
+    {
+        "type": "voice",
+        "chinese": "语态",
+        "exam": [
+            {
+                "que": "The number of members in the club __ to two hundred",
+                "options": [
+                    "were limited",
+                    "limits",
+                    "was limited",
+                    "limited"
+                ],
+                "answer": 2,
+                "translate": "俱乐部的成员被限制在200员",
+                "explain": "俱乐部时被动限制，排除DB，the number of 后面接单数，选C"
+            },
+            {
+                "que": "The airplane __ to have sunk to the bottom of Indian Ocean",
+                "options": [
+                    "suppose",
+                    "supposes",
+                    "has supposed",
+                    "is supposed"
+                ],
+                "answer": 3,
+                "explain": "固定搭配，be suppose to 应该，秒杀D",
+                "translate": "这个飞机应该在印度洋坠毁了"
+            },
+            {
+                "que": "In the road accident the other day three people __, including the driver",
+                "options": [
+                    "killed",
+                    "were killed",
+                    "are killed",
+                    "have killed"
+                ],
+                "answer": 1,
+                "explain": "the other day 前两天，过去时，被杀，用被动语态，秒杀B",
+                "translate": "在这条路上的事故前两天有三个人死了，包括司机"
+            },
+            {
+                "que": "The girl glance over her shoulder and found herself __ by a young man in black",
+                "options": [
+                    "was followed",
+                    "had been followed",
+                    "following",
+                    "followed"
+                ],
+                "answer": 3,
+                "explain": "find sb done表被动，选D，注意不要误选A了，不需要补充been了",
+                "translate": "那个女孩回头发现身后跟着一个穿黑衣服的年轻人",
+                "other": "find sb 可以加do(经常做)/doing(正在做)/done(被动)"
+            },
+            {
+                "que": "In recent years, many football clubs __ as business to make a profit",
+                "options": [
+                    "have run",
+                    "have been run",
+                    "had been run",
+                    "will run"
+                ],
+                "answer": 1,
+                "translate": "这几年，很多足球俱乐部被商业化运营来获取收益",
+                "explain": "in recent year 表示延续到了现在，排除CD，俱乐部肯定是被运营，被动语态，选B"
+            },
+            {
+                "que": "Would you please keep silent? The weather report __ and I want to listen",
+                "options": [
+                    "is broadcast",
+                    "is being broadcast",
+                    "has been broadcast",
+                    "had been broadcast"
+                ],
+                "answer": 1,
+                "translate": "你能保持安静吗？天气预报正在播放，我想要听",
+                "explain": "让你保持安静，肯定是正在播放，秒杀B"
+            },
+            {
+                "que": "I could'n find the tools; they might __ in the wrong place",
+                "options": [
+                    "put",
+                    "have put",
+                    "be put",
+                    "have been put"
+                ],
+                "answer": 3,
+                "translate": "我找不到那个工具了，他们可能被放到错误的地方了",
+                "explain": "工具肯定是被放，选被动语态，排除AB，工具肯定是在我去找之前就被放了，所以应该用完成时，选D",
+                "other": "按照翻译来说，如果带了/了，已经/这类的词汇，说明是完成时"
+            },
+            {
+                "que": "There is so much work __ today. Would you be kind enough to lend me hand?",
+                "options": [
+                    "having done",
+                    "to be done",
+                    "being done",
+                    "will be done"
+                ],
+                "answer": 1,
+                "explain": "工作是被做，被动语态，排除A，There is 是现在的时态，排除Dwill将来时，工作还没有做完，需要你帮我做，所以选to be 表将来"
+            }
+        ]
+    },
+    {
+        "type": "modal_verb",
+        "chinese": "情态动词"
     }
 ]
